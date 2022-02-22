@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  grid-area: y;
+  padding: 15px;
+  margin-left: 20px;
+  margin: 10px;
+}
+
+.postContainer {
+}

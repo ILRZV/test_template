@@ -1,0 +1,23 @@
+.highlightPage {
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.navigation {
+  cursor: pointer;
+}
+
+.footer {
+  margin: auto;
+  width: 350px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.indexFind {
+  text-align: center;
+}
+
+.navigation {
+  cursor: pointer;
+}

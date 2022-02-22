@@ -1,0 +1,24 @@
+.container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0px;
+  display: flex;
+}
+
+.followPlace {
+  background-color: rgb(209, 218, 218);
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 100px;
+  background-color: white;
+  margin-bottom: 5px;
+}

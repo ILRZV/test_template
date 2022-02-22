@@ -1,0 +1,70 @@
+.container {
+  margin: 10px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  grid-area: l;
+}
+
+.head_img {
+  width: 100%;
+  height: 300px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: relative;
+  top: -50px;
+  left: 50px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.header_info {
+  display: grid;
+  grid-template-columns: 180px 1fr 1fr;
+}
+
+.info {
+  justify-self: start;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mail {
+  color: grey;
+}
+
+.buttons {
+  justify-self: end;
+  margin-top: 20px;
+}
+
+.button {
+  margin: 10px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation a {
+  padding: 10px 20px 10px;
+  cursor: pointer;
+  margin: 10px 10px 0px;
+}
+
+.navigation a:hover {
+  background-color: rgb(226, 223, 223);
+  border-radius: 5px;
+}
